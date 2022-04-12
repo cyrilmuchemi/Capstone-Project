@@ -5,76 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
     <title>Document</title>
 </head>
-<body onload="slider()">
-    <section class="banner">
-        <div class="slider">
-            <img src="pics/marshmello.jpg" id="slideImg">
-        </div>
-        <div class="overlay">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="#">Event Guru</a>
-                </div>
-                <div class="menu">
-                    <img src="pics/hamburger.png" id="hamburger">
-                </div>
+<body>
+   <section class="topSection">
+       <nav>
+           <div class="upperNav">
+           <ul>
+            <li><img src=""></li>
+               <li><img src=""></li>
+               <li><a href="#">English</a></li>
+               <li><a href="#">MyPage</a></li>
+               <li><a href="#">Logout</a></li>
+           </ul>
+           </div>
+           <div class="anotherNav">
+              <a><img src="pics/logo.jpeg"></a>
+               <h2>African Summit</h2>
+               <ul>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Program</a></li>
+                   <li><a href="#">Speakers</a></li>
+                   <li><a href="#">Partner</a></li>
+                   <li><a href="#">Event</a></li>
+                   <li><a href="#">AWS</a></li>
+               </ul>
+           </div>
+       </nav>
+       <div class="firstPart">
+        <a href="#"><img id="menuIcon" src="pics/hamburger.png"></a>
+        <h1>Global African Summit 2022</h1>
+        <h2>Naturing Young Talent</h2>
+        <div class="paragraph">
+            <p>
+                The third African Global Summit will take place in December 2022.
+                Meet, share ideas and network with other developers across Africa.
+            </p>
             </div>
-            <div class="pgContent">
-                <h1>Stream Live Events</h1>
-                <h2>From The World To Your Couch.</h2>
-            </div>
-        </div>
-    </section>
+            <h3>2022.12.15(THU) ~ 16(FRI)</h3>
+            <h4>@Technology Association, Nairobi</h4>
+       </div>
+   </section>
 
-        <div class="aboutSection">
-            <h2 id="featureRev">Feature Reviews</h2>
-            <hr class="underline">
-            <div class="reviews">
-                <span class="card">
-                    <img src="pics/review2.jpeg" id="profile">
-                    <h2>Ayden Charlie</h2>
-                    <h3>Director and Actor</h3>
-                    <p>What a great Website!</p>
-                </span>
+   <section class="features">
+       <h2>Our Programs</h2>
+       <hr class="redHR">
+       <div class="card">
+           <img src="pics/lecture.png">
+           <h4>Lecture</h4>
+           <p>
+               Listen to speakers from various countries
+               across Africa about new web development
+               techniques 
+           </p>
+       </div>
 
-                <span class="card">
-                    <img src="pics/review1.jpeg" id="profile">
-                    <h2>Sophie Lister</h2>
-                    <h3>Producer and Actress</h3>
-                    <p>I simply love this!</p>
-                </span>
+       <div class="card">
+        <img src="pics/exhibition.png">
+        <h4>Exhibition</h4>
+        <p>
+            Watch and experience new AI models among other
+            latest technologies
+        </p>
+    </div>
 
-                <span class="card">
-                    <img src="pics/review1.jpeg" id="profile">
-                    <h2>Harold Hardrada</h2>
-                    <h3>Photographer</h3>
-                    <p>I love the display!</p>
-                </span>
+    <div class="card">
+        <img src="pics/forum.png">
+        <h4>Forum</h4>
+        <p>
+            Have time to share your thoughts and opinions
+            as well as network with other like-minded
+            individuals
+        </p>
+    </div>
 
-                <span class="card">
-                    <img src="pics/review1.jpeg" id="profile">
-                    <h2>Sun Tzu</h2>
-                    <h3>Producer and Actress</h3>
-                    <p>I simply love this!</p>
-                </span>
+    <div class="card">
+        <img src="pics/workshop.png">
+        <h4>Workshop</h4>
+        <p>
+            Try creating your own work as 
+            you watch other developers at work
+        </p>
+    </div>
 
-                <span class="card">
-                    <img src="pics/review1.jpeg" id="profile">
-                    <h2>Osman Gazi</h2>
-                    <h3>Army Officer</h3>
-                    <p>I love the loading spead!</p>
-                </span>
+    <div class="card">
+        <img src="pics/ignite.png">
+        <h4>Job Search</h4>
+        <p>
+            Get the opportunity to socialize with
+            employers and maybe get a Job
+        </p>
+    </div>
+   </section>
+   <section class="speakers">
+       <h2 id="speakers">Featured Speakers</h2>
+       <hr class="redHR">
+       <div class="images">
+        <img src="pics/turkey.jpeg" id="profile">
+        <h2>Osman Gazi</h2>
+        <h3>AI Consultant</h3>
+        <p>Osman is a recognized individual in 
+            the AI space
+        </p>
+       </div>
+       <div class="images">
+        <img src="pics/chinese.jpg" id="profile">
+        <h2>June Chan</h2>
+        <h3>Data Analyst</h3>
+        <p>June is a renown data analyst from Beijing.
+            She has over 10 years experience.
+        </p>
+       </div>
 
-                <span class="card">
-                    <img src="pics/review1.jpeg" id="profile">
-                    <h2>Shaka Zulu</h2>
-                    <h3>Producer and Actress</h3>
-                    <p>I simply love this!</p>
-                </span>
-            </div>
-        </div> 
-    <script src="background.js"></script>  
+       <div class="images">
+        <img src="pics/otunga.jpg" id="profile">
+        <h2>Miles Otunga</h2>
+        <h3>Fullstack Developer</h3>
+        <p>Miles Otunga is a Fullstack developer
+            who has had 10 years experience in the field.
+        </p>
+       </div>
+       <!---Desktop ones-->
+       <div class="images">
+        <img src="pics/otunga.jpg" id="profile">
+        <h2>Miles Otunga</h2>
+        <h3>Fullstack Developer</h3>
+        <p>Miles Otunga is a Fullstack developer
+            who has had 10 years experience in the field.
+        </p>
+       </div>
+
+       <div class="images">
+        <img src="pics/otunga.jpg" id="profile">
+        <h2>Miles Otunga</h2>
+        <h3>Fullstack Developer</h3>
+        <p>Miles Otunga is a Fullstack developer
+            who has had 10 years experience in the field.
+        </p>
+       </div>
+
+       <div class="images">
+        <img src="pics/otunga.jpg" id="profile">
+        <h2>Miles Otunga</h2>
+        <h3>Fullstack Developer</h3>
+        <p>Miles Otunga is a Fullstack developer
+            who has had 10 years experience in the field.
+        </p>
+       </div>
+   </section>
 </body>
 </html>
