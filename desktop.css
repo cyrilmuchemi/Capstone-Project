@@ -3,17 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @media screen and (min-width: 768px) {
-
-    #menuIcon {display: none;}
-    .redHR {display: none;}
-    .menu {display: none;}
-
-
     * {
         padding: 0;
         margin: 0;
         font-family: sans-serif;
     }
+
+    #menuIcon {display: none;}
 
     nav {
         position: fixed;
@@ -98,7 +94,7 @@
         font-size: 40px;
         color: #ec5242;
         margin-top: 260px;
-        margin-left: 150px;
+        margin-left: 350px;
     }
 
     .firstPart h2 {
@@ -106,7 +102,7 @@
         font-size: 30px;
         color: #ec5242;
         margin-top: 20px;
-        margin-left: 170px;
+        margin-left: 370px;
     }
 
     .paragraph {
@@ -140,136 +136,133 @@
         margin-left: 300px;
     }
 
-    .features {
+    .midSection {
         width: 100%;
-        height: 80vh;
-        background: url(pics/program-bg.jpg);
-    }
-
-    .features h2 {
-        color: #fff;
-        font-size: 30px;
-        font-family: 'Roboto', sans-serif;
-        padding-top: 30px;
-        margin-left: 500px;   
-    }
-
-    .cards {
-        display: flex;
-        margin-top: 20px;
-        margin-left: 80px;
-        padding: 40px;
-        gap: 20px;
-        width: 80%;   
-    }
-
-    .card {
-        border: rgb(146, 144, 144) solid;
-        padding: 20px;
-      
-    }
-
-    .card img {
-        width: 100px;
-    }
-
-    .card h4 {
-        color: #ec5242;
-        font-size: 22px;
-        font-weight: bold;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .card p {
-        color: #fff;
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 10px;
-    }
-
-    .images {
-        margin: 40px auto;
-        width: 80%;
-        background: url(pics/blank-chess-board.gif);
-        background-repeat: no-repeat;
-    }
-
-    .images img {
-        width: 200px;
-        height: 200px;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .images h2 {
-        color: #ec5242;
-        margin-top: -5px;
-    }
-
-    .images h3 {
-        color: #ec5242;
-        margin-left: 20px;
-        font-size: 20px;
-    }
-
-    .images p {
-        color: #6b707a;
-        font-size: 20px;
-        width: 35%;
-    }
-
-    #speakers {
-        color: #6b707a;
-        font-size: 30px;
-        font-family: 'Crete Round', sans-serif;
-        margin-left: 400px;
-        margin-top: 40px;
-    }
-
-    .speakers h2 {
-        color: #6b707a;
-        font-size: 30px;
-        font-family: 'Crete Round', sans-serif;
-        margin-left: 20px;
-    }
-
-    footer {
-        width: 100%;
-        height: 60vh;
         position: relative;
         overflow: hidden;
     }
 
-    .topFooter {
+    .upperSection {
+        margin-top: 100px;
         width: 100%;
-        height: 40vh;
+    }
+
+    .upperSection h2 {
+        font-family: 'Crete Round', sans-serif;
+        color: #000000;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 370px;
+    }
+
+    .redHR {
+        width: 100px;
+        height: 2px;
+        margin-top: 30px;
+        background: #ec5242;
+        margin-left: 460px;
+    }
+
+    .upperSection h3 {
+        font-family: 'Roboto', sans-serif;
+        color: #6a6f79;
+        font-size: 26px;
+        font-weight: bold;
+        width: 50%;
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+
+    .logoDiv {
+        width: 55%;
+        margin-left: 270px;
+        margin-top: 70px;
+        border: #6a6f79 solid;
+    }
+
+    .logoDiv img {
+        width: 130px;
+        position: absolute;
+        margin-left: 150px;
+    }
+
+    .logoDiv h3 {
+     font-size: 40px;
+     font-family: 'COCOGOOSE', sans-serif;
+     margin-top: -5px;
+     color: #ec5242; 
+    }
+
+    .whiteHR {
+        margin-top: 100px;
+    }
+
+    .lowerSection {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .lowerSection h2 {
+        color: #000000;
+        font-family: 'Crete Round', sans-serif;
+        font-size: 30px;
+        margin-left: 340px;
+        font-weight: bold;
+    }
+
+    .lowerSection h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #272a31;
+        font-size: 24px;
+        margin-left: 250px;
+        margin-top: 60px;
+    }
+
+    .lowImages {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 100px;
+        margin-left: 300px;
+    }
+
+    .lowImages img {
+        width: 500px;
+    }
+
+    .topFooter {
+        width: 130%;
+        height: 30vh;
+        margin-left: -40px;
+        margin-top: 40px;
         background: #272a31;   
     }
 
     .topFooter h2 {
-        margin-left: 430px;
         color: #fff;
         font-size: 30px;
+        margin-left: 570px;
         font-family: 'Crete Round', sans-serif;
-    }
-
-    .footHR {
-        width: 40px;
-        margin-left: 470px;
-        margin-top: 20px;
     }
 
     .footUl {
         display: flex;
         width: 80%;
-        margin: 40px auto;
+        margin: 20px auto;
     }
 
     .footUl ul {
         display: inherit;
         text-decoration: none;
         list-style: none;
-        gap: 140px;
+        gap: 80px;
+    }
+
+    .footHR {
+        width: 40px;
+        margin-left: 600px;
+        margin-top: 10px;
     }
 
     .footUl img {
@@ -278,7 +271,7 @@
 
     .footUl li {
         color: #fff;
-        font-size: 30px;
+        font-size: 26px;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
     }
@@ -288,26 +281,41 @@
         height: 20vh;
     }
 
+    .bottomFooter img {
+        width: 100px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 440px;
+    }
+
     .bottomFooter h2 {
         color: black;
         position: absolute;
-        margin-top: 40px;
-        margin-left: 400px;
+        margin-top: 50px;
+        margin-left: 540px;
         font-family: 'Roboto', sans-serif;
     }
 
     .bottomFooter h3 {
         color: black;
-        margin-left: 400px;
-        margin-top: 80px;
+        margin-left: 540px;
+        margin-top: 120px;
         position: absolute;
     }
 
-    .bottomFooter img {
-        width: 80px;
-        position: absolute;
-        margin-left: 300px;
-        margin-top: 30px;
-    }
-  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

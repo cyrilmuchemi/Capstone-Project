@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 @media screen and (max-width: 768px) {
-  
     * {
         padding: 0;
         margin: 0;
         font-family: sans-serif;
     }
+
     .menu {display: none;}
+    #menuIcon{display: none;}
     .HR {display: none;}
     .upperNav {display: none;}
     .anotherNav {display: none;}
@@ -37,15 +38,15 @@
     }
 
     .firstPart h1 {
-        font-family: 'COCOGOOSE', sans-serif;
-        font-size: 40px;
+        font-family: 'Crete Round', sans-serif;
+        font-size: 25px;
         color: #ff5c00;
         margin-top: 160px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .firstPart h2 {
-        font-family: 'Crete Round', sans-serif;
+        font-family: 'COCOGOOSE', sans-serif;
         font-size: 30px;
         color: #ff5c00;
         margin-top: 20px;
@@ -74,163 +75,125 @@
         font-family: 'Crete Round', sans-serif;
         font-size: 30px;
         margin-left: 20px;
-        margin-top: 66px;
+        margin-top: 100px;
     }
 
     .firstPart h4 {
         color: #6a6f79;
-        font-size: 18px;
+        font-size: 22px;
         margin-left: 18px;
     }
 
-    .features {
+    .midSection {
         width: 100%;
-        height: 100vh;
-        position: relative;
+        height: 180vh;
+        background: #fff;
         overflow: hidden;
-        background: url(pics/program-bg.jpg);
+        position: relative;
     }
 
-    .features h2 {
-        color: #fff;
-        font-size: 30px;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 50px;
-        margin-left: 80px;
-    }
-
-    .redHR {
-        background-color: red;
-        width: 70px;
-        margin-top: 30px;
-        margin-left: 130px;
-    }
-
-    .card {
-        display: flex;
+    .upperSection {
         width: 100%;
-        height: 15vh;
-        background: transparent;
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
-    .card img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .card h4 {
-        color: #ff5c00;
-        font-size: 18px;
-        margin-top: 20px;
-    }
-
-    .card p {
-        color: #fff;
-        font-size: 20px;
-        margin-left: 5px;
+    .upperSection h2 {
+        color: #000000;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 50px;
         font-weight: bold;
     }
 
-    .speakers {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 40vh;
-        margin: 40px auto;
-    }
-
-    .speakers h2 {
-        color: #6b707a;
-        font-size: 30px;
-        font-family: 'Crete Round', sans-serif;
-        margin-left: 20px;
-        margin-top: 40px;
-    }
-
-    .images {
-        margin-top: 30px;
-        background: url(pics/blank-chess-board.gif);
-        background-repeat: no-repeat;
-    }
-
-    .images img {
-        width: 200px;
-        height: 200px;
+    .redHR {
+        background: #ec5242;
+        width: 120px;
         margin-top: 20px;
-        margin-left: 20px;
+        height: 2px;
+        margin-left: 80px;
     }
 
-    .images h2 {
+    .upperSection h3 {
+        margin-top: 40px;
         color: #272a31;
-        margin-top: -5px;
-    }
-
-    .images h3 {
-        color: red;
+        font-size: 26px;
         margin-left: 20px;
-        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
     }
 
-    .images p {
-        color: #6b707a;
-        font-size: 20px;
+    .logoDiv {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 20vh;
+        border: #6a6f79 solid;
     }
 
-    .menu {
-        position: fixed;
-        margin-top: -1740px;
-        margin-left: -70px;
-        width: 90%;
+    .logoDiv img {
+        width: 110px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 10px;
     }
 
-    .menu-container {
+    .logoDiv h3 {
+        font-family: 'Roboto', sans-serif;
+        color: #ec5242;
+        margin-top: 130px;
+    }
+
+    .whiteHR {
+        width: 100%;
+        color: #272a31;
+        margin-top: 100px;
+    }
+
+    .lowerSection {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .lowerSection h2 {
+        color: #000000;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .lowerSection h3 {
+        margin-top: 40px;
+        color: #272a31;
+        font-size: 26px;
+        margin-left: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    .lowImages {
         display: flex;
         flex-direction: column;
-        background: #fff;
         width: 80%;
-        height: 80vh;
-        margin: 20px auto;
-        top: 0;
-      }
-      
-      #menu-list {
-        margin-left: -20px;
-        margin-top: 100px;
-        list-style: none;
-      }
-      
-      #closingIcon {
-        width: 60px;
-        margin-top: 50px;
-        margin-left: 10px;
-      }
-      
-      #menu-list a {
-        color: #272a31;
-        text-decoration: none;
-        gap: 30px;
-      }
-      
-      #menu-list li {
-        font-size: 32px;
-        font-family: 'inter', sans-serif;
-        padding: 40px;
-        line-height: 44px;
-        font-weight: 700;
-      }
+        gap: 50px;
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+
+    .lowerSection img {
+        width: 250px;
+    }
 
     .topFooter {
-        width: 130%;
+        width: 100%;
         height: 20vh;
-        margin-left: -50px;
         background: #272a31;   
     }
 
     .topFooter h2 {
         color: #fff;
         font-size: 30px;
-        margin-left: 130px;
+        margin-left: 100px;
         font-family: 'Crete Round', sans-serif;
     }
 
@@ -243,13 +206,14 @@
     .footUl ul {
         display: inherit;
         text-decoration: none;
+        margin-left: -15px;
         list-style: none;
-        gap: 20px;
+        gap: 7px;
     }
 
     .footHR {
         width: 40px;
-        margin-left: 170px;
+        margin-left: 130px;
         margin-top: 10px;
     }
 
@@ -273,20 +237,20 @@
         width: 100px;
         position: absolute;
         margin-top: 50px;
-        margin-left: -40px;
     }
 
     .bottomFooter h2 {
         color: black;
         position: absolute;
         margin-top: 50px;
-        margin-left: 60px;
+        font-size: 23px;
+        margin-left: 100px;
         font-family: 'Roboto', sans-serif;
     }
 
     .bottomFooter h3 {
         color: black;
-        margin-left: 70px;
+        margin-left: 100px;
         margin-top: 120px;
         position: absolute;
     }
