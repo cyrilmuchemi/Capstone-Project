@@ -22,7 +22,7 @@
 
 - GitHub: [@cyrilmuchemi](https://github.com/cyrilmuchemi)
 - Twitter: [@cyrilmuchemi](https://twitter.com/cyrilmuchemi)
-- LinkedIn: [Cyril Muchemi](https://linkedin.com/in/Cyril Muchemi)
+- LinkedIn: [Cyril Muchemi](https://linkedin.com/in/CyrilMuchemi)
 
 
 ## 🤝 Contributing
