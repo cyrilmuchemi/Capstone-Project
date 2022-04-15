@@ -44,6 +44,7 @@ const speakers = [
 
 const speakerSection = document.querySelector ('.speakers') 
 speakerSection.innerHTML = '';
+window.onload = () => {
 for (let i = 0; i < speakers.length; i += 1) {
     speakerSection.innerHTML += ` 
   <div class="individual">
@@ -58,4 +59,4 @@ for (let i = 0; i < speakers.length; i += 1) {
 </div>
 
   `;
-}
+}}
