@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://cyrilmuchemi.github.io/My_Portfolio/)
+[Live Demo Link](https://cyrilmuchemi.github.io/Capstone-Project/)
 
 
 ## Authors
