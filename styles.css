@@ -12,6 +12,7 @@
     font-family: sans-serif;
   }
 
+  .programBtn { display: none; }
   .secondRow { display: none; }
   .menu { display: none; }
   .HR { display: none; }
@@ -203,15 +204,15 @@
   }
 
   #menu-list {
-    margin-left: -20px;
-    margin-top: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
     list-style: none;
   }
 
   #closingIcon {
     width: 60px;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 90px;
+    margin-left: 50px;
   }
 
   #menu-list a {

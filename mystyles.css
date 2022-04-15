@@ -6,7 +6,6 @@
 @media screen and (min-width: 768px) {
 
   #menuIcon { display: none; }
-  .redHR { display: none; }
   .menu { display: none; }
 
   * {
@@ -15,9 +14,21 @@
     font-family: sans-serif;
   }
 
+  .fa-brands {
+    color: #fff;
+  }
+
   nav {
     position: fixed;
     width: 100%;
+  }
+
+  .anotherNav :hover {
+    color: #ec5242;
+  }
+
+  .upperNav :hover {
+    color: #ec5242;
   }
 
   .upperNav {
@@ -158,7 +169,7 @@
     display: flex;
     padding: 5px;
     gap: 20px;
-    margin-top: 120px;
+    margin-top: 70px;
     margin-left: 3%;
     margin-right: 3%;
   }
@@ -188,9 +199,37 @@
     margin-top: 10px;
   }
 
+  .programBtn {
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 600px;
+  }
+
+  .programBtn button {
+    background: transparent;
+    height: 8vh;
+    color: #ec5242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  .programBtn button:hover {
+    background: #ec5242;
+    color: #272a31;
+  }
+
+  .redHR {
+    margin-left: 580px;
+    margin-top: 40px;
+    background: #ec5242;
+    height: 2px;
+    width: 90px;
+  }
+
   #speakerhead {
     color: #272a31;
-    width: 50px;
+    text-align: center;
+    margin-top: 40px;
     font-family: 'COCOGOOSE', sans-serif;
   }
 
@@ -205,6 +244,7 @@
   .individual {
     display: flex;
     margin-top: 80px;
+    margin-left: 50px;
   }
 
   .myImage img {
@@ -214,6 +254,7 @@
   .description {
     margin-right: 200px;
     margin-top: 80px;
+    margin-left: -100px;
   }
 
   .description h2 {
@@ -248,7 +289,7 @@
   }
 
   .topFooter h2 {
-    margin-left: 430px;
+    text-align: center;
     color: #fff;
     font-size: 30px;
     font-family: 'Crete Round', sans-serif;
@@ -256,7 +297,7 @@
 
   .footHR {
     width: 40px;
-    margin-left: 470px;
+    margin-left: 600px;
     margin-top: 20px;
   }
 
@@ -294,13 +335,13 @@
     color: black;
     position: absolute;
     margin-top: 40px;
-    margin-left: 400px;
+    margin-left: 490px;
     font-family: 'Roboto', sans-serif;
   }
 
   .bottomFooter h3 {
     color: black;
-    margin-left: 400px;
+    margin-left: 490px;
     margin-top: 80px;
     position: absolute;
   }
@@ -308,7 +349,7 @@
   .bottomFooter img {
     width: 80px;
     position: absolute;
-    margin-left: 300px;
+    margin-left: 400px;
     margin-top: 30px;
   }
 }

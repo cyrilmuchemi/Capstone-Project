@@ -10,6 +10,10 @@
     font-family: sans-serif;
   }
 
+  .fa-brands {
+    color: #fff;
+  }
+
   #menuIcon { display: none; }
 
   nav {
@@ -70,6 +74,14 @@
     text-decoration: none;
     color: #272a31;
     font-weight: bold;
+  }
+
+  .anotherNav :hover {
+    color: #ec5242;
+  }
+
+  .upperNav :hover {
+    color: #ec5242;
   }
 
   .anotherNav h2 {
