@@ -199,25 +199,6 @@
     margin-top: 10px;
   }
 
-  .programBtn {
-    margin-top: 60px;
-    width: 100%;
-    margin-left: 600px;
-  }
-
-  .programBtn button {
-    background: transparent;
-    height: 8vh;
-    color: #ec5242;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-  }
-
-  .programBtn button:hover {
-    background: #ec5242;
-    color: #272a31;
-  }
-
   .redHR {
     margin-left: 580px;
     margin-top: 40px;
