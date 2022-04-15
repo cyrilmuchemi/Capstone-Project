@@ -1,5 +1,5 @@
 const menuIcon = document.getElementById('menuIcon');
-menuIcon.addEventListener('click', function() {
+menuIcon.addEventListener('click', () => {
   
     document.getElementById('menu').style.display = 'block';
 });
@@ -7,7 +7,6 @@ menuIcon.addEventListener('click', function() {
 const closingIcon = document.getElementById('closingIcon');
 closingIcon.addEventListener('click', () => {
 
-    document.getElementById('menu').style.display= 'none';
+    document.getElementById('menu').style.display = 'none';
 
 });
-
