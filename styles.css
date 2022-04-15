@@ -224,7 +224,7 @@
       }
 
     .topFooter {
-        height: 20vh;
+        height: auto;
         background: #272a31;   
     }
 
@@ -269,7 +269,7 @@
         background: url(pics/wavesbackgrnd.jpeg);
         background-size: cover;
         width: 100%;
-        height: 20vh;
+        height: auto;
     }
 
     .bottomFooter img {
