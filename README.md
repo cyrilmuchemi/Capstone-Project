@@ -5,6 +5,11 @@
 > This is my first capstone project showcasing the Annual African Summit.
 
 
+##Loom Video
+
+(https://www.loom.com/share/64488b8c446d4a76a0610d68104f47bb)
+
+
 ## Built With
 
 - HTML
