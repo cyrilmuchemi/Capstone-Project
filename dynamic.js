@@ -45,8 +45,8 @@ const speakers = [
 const speakerSection = document.querySelector ('.speakers') 
 speakerSection.innerHTML = '';
 window.onload = () => {
-for (let i = 0; i < speakers.length; i += 1) {
-    speakerSection.innerHTML += ` 
+    for (let i = 0; i < speakers.length; i += 1) {
+        speakerSection.innerHTML += ` 
   <div class="individual">
   <div class="myImage">
       <img src= '${speakers[i].image}'>
@@ -59,4 +59,5 @@ for (let i = 0; i < speakers.length; i += 1) {
 </div>
 
   `;
-}}
+    } 
+}
