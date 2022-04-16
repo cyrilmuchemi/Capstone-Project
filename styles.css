@@ -1,0 +1,302 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .secondRow { display: none; }
+  .menu { display: none; }
+  .HR { display: none; }
+  .upperNav { display: none; }
+  .anotherNav { display: none; }
+
+  .topSection {
+    width: 120%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url(pics/mybackground.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .firstPart {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  }
+
+  .firstPart img {
+    margin-top: 30px;
+    margin-left: 25px;
+    background: none;
+    width: 40px;
+  }
+
+  .firstPart h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 40px;
+    color: #ff5c00;
+    margin-top: 160px;
+    margin-left: 20px;
+  }
+
+  .firstPart h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 30px;
+    color: #ff5c00;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .paragraph {
+    width: 85%;
+    height: 24vh;
+    margin: 25px auto;
+    border: rgb(236, 228, 228) solid;
+  }
+
+  .paragraph p {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-left: 12px;
+    line-height: 30px;
+    color: #6b707a;
+    font-weight: bold;
+  }
+
+  .firstPart h3 {
+    color: #272a31;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 66px;
+  }
+
+  .firstPart h4 {
+    color: #6a6f79;
+    font-size: 18px;
+    margin-left: 18px;
+  }
+
+  .features {
+    width: 120%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: url(pics/program-bg.jpg);
+  }
+
+  .features h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .redHR {
+    background-color: red;
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+
+  .card {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background: transparent;
+    margin-top: 20px;
+  }
+
+  .card img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .card h4 {
+    color: #ff5c00;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .card p {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  .speakers {
+    display: grid;
+    width: 100%;
+    height: 160vh;
+    padding: 3%;
+  }
+
+  #speakerhead {
+    color: #272a31;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .individual {
+    display: flex;
+  }
+
+  .myImage img {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .description {
+    margin-left: -230px;
+    margin-top: auto;
+  }
+
+  .description h2 {
+    font-size: 20px;
+    color: #272a31;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+  .description h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ec5242;
+  }
+
+  .description p {
+    color: #272a31;
+    font-size: 12px;
+  }
+
+  .menu {
+    position: fixed;
+    margin-top: -1740px;
+    margin-left: -70px;
+    width: 90%;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 80%;
+    height: 80vh;
+    margin: 20px auto;
+    top: 0;
+  }
+
+  #menu-list {
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style: none;
+  }
+
+  #closingIcon {
+    width: 60px;
+    margin-top: 90px;
+    margin-left: 50px;
+  }
+
+  #menu-list a {
+    color: #272a31;
+    text-decoration: none;
+    gap: 30px;
+  }
+
+  #menu-list li {
+    font-size: 32px;
+    font-family: 'inter', sans-serif;
+    padding: 40px;
+    line-height: 44px;
+    font-weight: 700;
+  }
+
+  .topFooter {
+    height: auto;
+    width: 120%;
+    background: #272a31;
+  }
+
+  .topFooter h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 130px;
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .footUl {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .footUl ul {
+    display: inherit;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .footHR {
+    width: 40px;
+    margin-left: 170px;
+    margin-top: 10px;
+  }
+
+  .footUl img {
+    width: 50px;
+  }
+
+  .footUl li {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+  .bottomFooter {
+    background: url(pics/wavesbackgrnd.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+
+  .bottomFooter img {
+    width: 100px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+  .bottomFooter h2 {
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 190px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .bottomFooter h3 {
+    color: black;
+    margin-left: 180px;
+    margin-top: 110px;
+    position: absolute;
+  }
+}
